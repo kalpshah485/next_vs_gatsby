@@ -1,0 +1,38 @@
+{
+  "name": "gatsby_demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "author": "kalpshah485",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby develop",
+    "start": "gatsby develop",
+    "deploy":"gatsby build && gatsby serve",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gatsby": "^4.24.0",
+    "gatsby-plugin-image": "^2.24.0",
+    "gatsby-plugin-sharp": "^4.24.0",
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-source-graphql": "^4.24.0",
+    "gatsby-transformer-sharp": "^4.24.0",
+    "isomorphic-fetch": "^3.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.36",
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "typescript": "^4.8.3",
+    "typescript-plugin-css-modules": "^3.4.0"
+  }
+}
