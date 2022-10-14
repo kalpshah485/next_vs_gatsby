@@ -6,22 +6,22 @@ const docLinks = [
   {
     text: "Server Side Rendered Page",
     url: "/ssr",
-    color: "#8954A8",
   },
   {
     text: "Statically Generated Page",
     url: "/ssg",
-    color: "#8954A8",
   },
   {
     text: "Deferred Statically Generated Page",
     url: "/dsg",
-    color: "#8954A8",
   },
   {
     text: "Rick and morty (Statically generated using graphql) Page",
     url: "/rickandmorty",
-    color: "#8954A8",
+  },
+  {
+    text: "Image Optimization",
+    url: "/img-opt",
   }
 ];
 type DataType = {

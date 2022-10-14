@@ -13,7 +13,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #8954A8;
   text-decoration: none;
 }
 
@@ -27,6 +27,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  margin-bottom: 10px;
 }
 
 .title,
@@ -45,7 +46,20 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 1500px;
+}
+.docLinkStyle {
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: 24px;
+  margin-right: 12px;
+}
+
+.linkStyle {
+  color: #8954A8;
+  font-weight: bold;
+  font-size: 16px;
+  vertical-align: 5%;
 }
 
 @media (max-width: 600px) {
